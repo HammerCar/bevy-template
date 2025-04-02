@@ -2,6 +2,14 @@
 
 This repository has a template Bevy project with all the performance optimizations listed on Bevy's [Quick Start Guide](https://bevyengine.org/learn/quick-start/introduction/).
 
+## Quickstart
+
+Use `cargo-generate` to create a new project using this template
+
+```sh
+cargo generate HammerCar/bevy-template
+```
+
 ## Version
 
 The current Bevy version this template is built for is `0.15.3`
