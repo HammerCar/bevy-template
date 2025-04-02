@@ -46,3 +46,19 @@ Install Cranelift
 ```sh
 rustup component add rustc-codegen-cranelift-preview --toolchain nightly
 ```
+
+### Generate
+
+Install `cargo-generate` using
+
+```sh
+cargo install cargo-generate
+```
+
+You can also add a favourite entry allowing you to create a new Bevy project with `cargo generate bevy`. Add the following to `$CARGO_HOME/cargo-generate.toml`
+
+```toml
+[favorites.bevy]
+description = "Bevy project with all the performance optimizations listed on Bevy's Quick Start Guide"
+git = "https://github.com/HammerCar/bevy-template"
+```
